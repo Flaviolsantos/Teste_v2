@@ -13,7 +13,7 @@ if __name__ == '__main__':
     minimo.append(x)
     par = int(x) % 2
 
-
+    
     if par == 0:
         print(f'{x} é par')
         npar.append(lista[0])
@@ -53,7 +53,7 @@ if __name__ == '__main__':
             continue
 
 
-
+        lista.append(outro)
         if par == 0:
             print(f'{outro} é par')
             npar.append(outro)
